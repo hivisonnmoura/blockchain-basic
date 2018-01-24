@@ -1,1 +1,3 @@
-# p2p-system
+# blockchain-basic
+
+Basic example of blockchain
