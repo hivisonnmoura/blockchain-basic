@@ -29,6 +29,7 @@ public class App {
 		String blockchainJson = new GsonBuilder().setPrettyPrinting().create().toJson(blockchain);
 		System.out.println("\nThe block chain: ");
 		System.out.println(blockchainJson);
+		System.out.println("Hash: " + blockchain.hashCode());
 	}
 
 	public static Boolean isChainValid() {
